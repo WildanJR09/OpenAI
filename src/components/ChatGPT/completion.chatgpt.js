@@ -1,6 +1,5 @@
 import { useState } from "react";
 import TextareaAutosize from "react-textarea-autosize";
-import Information from "../Utilities/information";
 import { Configuration, OpenAIApi } from "openai";
 
 const Completion = () => {

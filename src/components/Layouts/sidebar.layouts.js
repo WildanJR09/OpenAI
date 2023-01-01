@@ -148,7 +148,7 @@ const Sidebar = () => {
             </p>
             <a
               className="text-xs md:text-sm underline"
-              href="https://openai.com/blog/chatgpt/"
+              href="https://github.com/WildanJR09/OpenAI"
               target="_blank"
               rel="noreferrer"
             >

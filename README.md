@@ -4,15 +4,15 @@
 
 # Table of Contents
 
-- [Running on Localhost](https://github.com/armandwipangestu/openai-project#running-on-localhost)
-- [How to get API key?](https://github.com/armandwipangestu/openai-project#how-to-get-api-key)
+- [Running on Localhost](https://github.com/WildanJR09/OpenAI.git)
+- [How to get API key?](https://github.com/WildanJR09/OpenAI.git)
 
 ## Running on Localhost
 
 - Clone this repository
 
 ```bash
-git clone https://github.com/armandwipangestu/openai-project
+git clone https://github.com/WildanJR09/OpenAI.git
 ```
 
 - Install dependency library
