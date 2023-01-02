@@ -21,10 +21,10 @@ git clone https://github.com/WildanJR09/OpenAI.git
 npm i
 ```
 
-- Copy `.env.example` to `.env` and fill it with your API
+- Dont forget to make `.env` and fill it with your API
 
 ```bash
-cp .env.example .env
+touch .env
 ```
 
 ```bash
