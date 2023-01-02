@@ -42,8 +42,6 @@ const Completion = () => {
             <div className="min-h-screen flex flex-col justify-start">
                 <div>
 
-                    {/* <Information /> */}
-
                     {chatLog.map((log, i) => (
                         <>
                             {log.user === "me" && (

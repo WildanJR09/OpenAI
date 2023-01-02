@@ -46,7 +46,7 @@ const Sidebar = () => {
   return (
     <div
       className={`${open ? "w-44 md:w-72" : "w-12 md:w-16"
-        } border-r-2 border-black h-screen sticky top-0`}
+        } border-r-2 border-[#B08BBB] h-screen sticky top-0`}
     >
       <div className={`flex items-center`}>
         <img
@@ -105,21 +105,21 @@ const Sidebar = () => {
           }}
         />
         <div
-          className={`${open && "border-2 border-black"} ${!open && "hidden"
+          className={`${open && "border-2 border-[#B08BBB"} ${!open && "hidden"
             } px-4 py-4 rounded-lg ${!attention ? "hidden" : ""}`}
-          style={{ boxShadow: "0.4rem 0.4rem 0 #222" }}
+          style={{ boxShadow: "0.4rem 0.4rem 0 #907299" }}
         >
           <div className={`flex items-center mb-3 ${!open && "hidden"}`}>
             <span
-              className={`border-2 border-black bg-red-400 text-black text-xs md:text-sm font-semibold mr-2 px-2.5 py-0.5 rounded`}
-              style={{ boxShadow: "0.2rem 0.2rem 0 #222" }}
+              className={`border-2 border-[#B08BBB] bg-red-400 text-black text-xs md:text-sm font-semibold mr-2 px-2.5 py-0.5 rounded`}
+              style={{ boxShadow: "0.2rem 0.2rem 0 #907299" }}
             >
               @Copyright 2023
             </span>
             <button
               type="button"
-              className="ml-auto -mx-1.5 -my-1.5 border-2 rounded-md border-black text-black focus:ring-2 focus:ring-gray-200 p-0.5 inline-flex h-6 w-6 hover:bg-red-400"
-              style={{ boxShadow: "0.2rem 0.2rem 0 #222" }}
+              className="ml-auto -mx-1.5 -my-1.5 border-2 rounded-md border-[#B08BBB] text-black focus:ring-2 focus:ring-gray-200 p-0.5 inline-flex h-6 w-6 hover:bg-red-400"
+              style={{ boxShadow: "0.2rem 0.2rem 0 #907299" }}
               data-collapse-toggle="dropdown-cta"
               aria-label="Close"
               onClick={() => {
