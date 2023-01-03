@@ -20,8 +20,8 @@ const App = () => {
                 path="/"
                 element={
                   <Home
-                    title="Let's do something fun with AI."
-                    description="OpenAI is an AI research and deployment company. Our mission is to ensure that artificial general intelligence benefits all of humanity."
+                    title="Ayo lakukan sesuatu yang menyenangkan dengan AI."
+                    description="OpenAI adalah perusahaan riset dan penerapan AI. Misi kami adalah untuk memastikan bahwa kecerdasan umum buatan bermanfaat bagi seluruh umat manusia."
                   />
                 }
               />

@@ -16,9 +16,9 @@ const FAQ = () => {
       color: "#FAAE2B",
     },
     {
-      question: "ChatGPT: Optimizing Language Models for Dialogue",
+      question: "ChatGPT: Mengoptimalkan Model Bahasa untuk Dialog",
       answer:
-        "We’ve trained a model called ChatGPT which interacts in a conversational way. The dialogue format makes it possible for ChatGPT to answer followup questions, admit its mistakes, challenge incorrect premises, and reject inappropriate requests. ChatGPT is a sibling model to InstructGPT, which is trained to follow an instruction in a prompt and provide a detailed response.",
+        "Kami telah melatih model yang disebut ChatGPT yang berinteraksi dengan cara percakapan. Format dialog memungkinkan ChatGPT untuk menjawab pertanyaan tindak lanjut, mengakui kesalahannya, menantang premis yang salah, dan menolak permintaan yang tidak pantas. ChatGPT adalah model saudara dari InstructGPT, yang dilatih untuk mengikuti instruksi secara cepat dan memberikan respons mendetail.",
       color: "#FE98A3",
     },
   ];
