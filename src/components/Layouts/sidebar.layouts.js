@@ -2,7 +2,6 @@ import React, { useEffect, useState } from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
   faMessage,
-  faInfoCircle,
   faQuestionCircle,
   faHouse,
 } from "@fortawesome/free-solid-svg-icons";
@@ -33,7 +32,7 @@ const Sidebar = () => {
 
   useEffect(() => {
     const mediaQuery = window.matchMedia("(max-width: 600px)");
-    // setIsMobile(mediaQuery.matches);
+    setIsMobile(mediaQuery.matches);
     setOpen(!mediaQuery.matches);
 
     const handleMediaQueryChange = (e) => setIsMobile(e.matches);

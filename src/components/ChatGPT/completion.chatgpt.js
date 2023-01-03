@@ -99,7 +99,7 @@ const Completion = () => {
 
                 <div className="mt-auto flex sticky bottom-5">
                     <div
-                        className={`flex absolute bottom-0 right-0 md:pb-2.5 px-4 py-2.5 rounded-tr-md rounded-br-md ${prompt && "bg-black text-white px-4 py-2.5"
+                        className={`flex absolute bottom-0 right-0 md:pb-2.5 px-4 py-2.5 rounded-tr-md rounded-br-md text-[#B08BBB] ${prompt && "bg-[#B08BBB] text-white px-4 py-2.5"
                             }`}
                     >
                         <button
@@ -111,9 +111,9 @@ const Completion = () => {
                         </button>
                     </div>
                     <TextareaAutosize
-                        className="w-full border-2 border-black rounded-md placeholder-gray-500 resize-none py-2 pl-3 pr-10 md:pl-5 outline-none"
+                        className="w-full border-2 border-[#B08BBB] caret-pink-500  rounded-md placeholder-gray-500 resize-none py-2 pl-3 pr-10 md:pl-5 outline-none"
                         placeholder="Enter your message here"
-                        style={{ boxShadow: "0.4rem 0.4rem 0 #222" }}
+                        style={{ boxShadow: "0.4rem 0.4rem 0 #907299" }}
                         maxRows={5}
                         value={prompt}
                         onChange={(e) => setPrompt(e.target.value)}
