@@ -1,11 +1,6 @@
 <h1 align="center">uWill - OpenAI</h1>
 
-
-
-# Table of Contents
-
-- [Running on Localhost](https://github.com/WildanJR09/OpenAI.git)
-- [How to get API key?](https://github.com/WildanJR09/OpenAI.git)
+<p>This project made with OpenAI API Key</p>
 
 ## Running on Localhost
 
