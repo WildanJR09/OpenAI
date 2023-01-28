@@ -8,7 +8,7 @@ const Completion = () => {
     const [chatLog, setChatLog] = useState([
         {
             user: "gpt",
-            message: "How can I help you Today?",
+            message: "Apa yang bisa saya bantu hari ini?",
             avatar: "openai-dark.png",
         },
     ]);
