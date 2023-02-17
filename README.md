@@ -1,3 +1,5 @@
+![preview](https://github.com/WildanJR09/.github/blob/main/uwill-openai.png)
+
 <h1 align="center">uWill - OpenAI</h1>
 
 <p>This project made with OpenAI API Key</p>
